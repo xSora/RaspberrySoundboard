@@ -1,0 +1,4 @@
+- Save the files to a seperate (external?) folder instead of static and media + buttons.json
+- Convert to Docker
+- Fix Scrolling issue - my Pi
+- Show if audio is playing, how long be able to stop it while playing
