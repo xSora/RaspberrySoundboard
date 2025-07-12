@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+lib/
+lib64/
+.env
+
+# Django
+*.log
+*.pot
+*.mo
+*.js.map
+*.css.map
+
+# Static files
+static/
+media/
+buttons.json
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
