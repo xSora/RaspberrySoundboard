@@ -1,4 +1,20 @@
-- Save the files to a seperate (external?) folder instead of static and media + buttons.json
-- Convert to Docker
-- Fix Scrolling issue - my Pi
-- Show if audio is playing, how long be able to stop it while playing
+# Project TODO List
+
+## 🚀 Deployment & Infrastructure
+
+- [ ] Convert project to use Docker for consistent development and deployment environments.
+
+## ⚙️ Backend & Configuration
+
+- [ ] Refactor file storage to use a dedicated external data directory instead of `static/` and `media/`.
+  - [ ] Include `buttons.json` in this new data directory.
+- [ ] Enhance application security by generating the `APP_SECRET` dynamically.
+  - [ ] Store secrets and configuration variables in a separate configuration file (e.g., `.env`).
+
+## ✨ Frontend & User Experience
+
+- [ ] Implement enhanced audio player controls:
+  - [ ] Show a visual indicator when audio is playing.
+  - [ ] Display playback progress (current time / total duration).
+  - [ ] Add a button to stop audio playback.
+- [ ] **[BUG]** Investigate and fix scrolling issue on the Raspberry Pi device.
